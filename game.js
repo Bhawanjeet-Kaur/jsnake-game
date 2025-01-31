@@ -32,10 +32,10 @@ function update() {
         direction = { x: 0, y: 0 };
     }
 
-    if (keys["ArrowUp"]) direction = { x: 0, y: -1 };
-    if (keys["ArrowDown"]) direction = { x: 0, y: 1 };
-    if (keys["ArrowLeft"]) direction = { x: -1, y: 0 };
-    if (keys["ArrowRight"]) direction = { x: 1, y: 0 };
+    if (keys["ArrowUp"]) direction = { x: 0, y: 1 };
+    if (keys["ArrowDown"]) direction = { x: 0, y: -1 };
+    if (keys["ArrowLeft"]) direction = { x: 1, y: 0 };
+    if (keys["ArrowRight"]) direction = { x: -1, y: 0 };
     
     if (direction.x !== 0 || direction.y !== 0) {
         const newHead = {
